@@ -1,0 +1,6 @@
+,Size,Recursive Biuld Time,Recursive Search Time,Iterative Biuld Time,Iterative Search Time,No Comparation Recursive Biuld,No Comparation Recursive Search,No Comparation Iterative Biuld,No Comparation Iterative Search,Hits,Miss
+0,50,153800,122900,152900,46500,149,50,234,140,41,9
+1,100,382700,163400,145000,106800,333,100,613,320,77,23
+2,200,585400,337300,10109800,244400,1123,200,1564,1076,142,58
+3,300,760600,982800,544300,383100,1349,300,2539,1364,225,75
+4,500,1577400,1045500,1407000,753400,3318,500,5021,3433,361,139
