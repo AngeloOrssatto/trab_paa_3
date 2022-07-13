@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
-rcParams['figure.figsize'] = 35,20
+rcParams['figure.figsize'] = 12.8, 9.6
 
 def graph_all():
-    data = pd.read_csv('results.csv', index_col='Size')
+    data = pd.read_excel('results.xlsx', index_col='Size')
 
     print(data)
 
@@ -50,7 +50,7 @@ def graph_all():
 
 
 def graph_50to10k(): 
-    df = pd.read_csv('results.csv')
+    df = pd.read_excel('results.xlsx')
     df = df[:13]
     print(df)
 
@@ -95,7 +95,7 @@ def graph_50to10k():
     plt.cla()
 
 def graph_10kto100k(): 
-    df = pd.read_csv('results.csv')
+    df = pd.read_excel('results.xlsx')
     df = df[14:22]
     print(df)
 
@@ -140,7 +140,7 @@ def graph_10kto100k():
     plt.cla()
 
 def graph_100kto250k(): 
-    df = pd.read_csv('results.csv')
+    df = pd.read_excel('results.xlsx')
     df = df[14:22]
     print(df)
 
@@ -188,3 +188,4 @@ graph_all()
 graph_50to10k()
 graph_10kto100k()
 graph_100kto250k()
+print(rcParams['figure.figsize'])
